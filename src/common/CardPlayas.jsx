@@ -5,44 +5,42 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import  {CardActionArea}  from '@mui/material';
-import playa from '../image/playa amanecer.webp'
-import playa2 from '../image/playa2.jpg'
-import playa3 from '../image/playa del carmen.jpg'
+import playas from '../../fakeApi'
 
 
-const playas = [
+// const playas = [
 
-  {
-    imagen: playa,
-    titulo: "PLAYA DEL CARMEN",
-    descripcion: "Playa car"
-  },
-  {
-    imagen: playa2,
-    titulo: " MEXICO",
-    descripcion: "Can Cun"
-  },
-  {
-    imagen: playa3,
-    titulo: " PUNTA CANA",
-    descripcion: "Bahybe"
-  },,
-  {
-    imagen: playa3,
-    titulo: " PUNTA CANA",
-    descripcion: "Bahybe"
-  },,
-  {
-    imagen: playa3,
-    titulo: " PUNTA CANA",
-    descripcion: "Bahybe"
-  },
+//   {
+//     imagen: playa,
+//     titulo: "PLAYA DEL CARMEN",
+//     descripcion: "Playa car"
+//   },
+//   {
+//     imagen: playa2,
+//     titulo: " MEXICO",
+//     descripcion: "Can Cun"
+//   },
+//   {
+//     imagen: playa3,
+//     titulo: " PUNTA CANA",
+//     descripcion: "Bahybe"
+//   },,
+//   {
+//     imagen: playa3,
+//     titulo: " PUNTA CANA",
+//     descripcion: "Bahybe"
+//   },,
+//   {
+//     imagen: playa3,
+//     titulo: " PUNTA CANA",
+//     descripcion: "Bahybe"
+//   },
 
-]
+// ]
 
 export const CardPlayas = ({valor}) => {
 
-console.log(playas)
+
 
   return (
     

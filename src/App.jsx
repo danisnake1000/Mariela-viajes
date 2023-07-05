@@ -1,8 +1,10 @@
 import "./App.css";
-import { Button } from "@mui/material";
+
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { Home } from "./page/home/Home";
-import { Footer } from "./common/Footer";
+import { Nosotros } from "./common/Nosotros";
+import { DetallesCars } from "./common/DetallesCars";
+
 
 
 
@@ -13,7 +15,8 @@ function App() {
 
         <Route path="/" element={<Home/>} />
         <Route path="*" element={<Navigate to="/" />} />
-       
+        <Route path="/nosotros" element={<Nosotros/>} />
+        <Route path="/detalles/:id" element={<DetallesCars/>} />
       </Routes>
     </BrowserRouter>
   );
