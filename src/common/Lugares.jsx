@@ -11,6 +11,7 @@ export const Lugares = () => {
              <h2 className="text-3xl p-12">Lugares del mundo</h2>
         </div>
       <Swiper
+       
         spaceBetween={50}
         slidesPerView={3}
         onSlideChange={() => console.log("slide change")}

@@ -28,11 +28,11 @@ export const Footer = () => {
             <h4 className="px-4">Correo electronico</h4>
           </div>
 
-        </div>
-      </div>
-          <div>
+          <div className="flex p-2  ">
           <a href="https://www.argentina.gob.ar/economia/comercio/defensadelconsumidor" target="_blank">defensa consumidor</a>
           </div>
+        </div>
+      </div>
     </footer>
   );
 };

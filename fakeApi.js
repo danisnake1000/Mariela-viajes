@@ -16,18 +16,18 @@
     {
       imagen: "https://media.istockphoto.com/id/500668485/es/foto/vacaciones-en-la-playa-tropical-resort-con-agua-aqua-blue-sky.webp?b=1&s=170667a&w=0&k=20&c=86uj1p_QObDxLXKv8Wo5Vhcgyo1QtATCZ-LOzmqzyBI=",
       titulo: " PUNTA CANA",
-      descripcion: "Bahybe"
+      descripcion: "Bayahibe"
     },
     {
       imagen: "https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGxheWFzfGVufDB8fDB8fHww&w=1000&q=80",
       titulo: " PUNTA CANA",
-      descripcion: "Bahybe"
+      descripcion: " Bayahibe"
+    },
+    {
+      imagen: "https://media.istockphoto.com/id/680317604/es/foto/miami-beach-florida-desde-arriba.webp?b=1&s=170667a&w=0&k=20&c=vzl_zO33ZPhSCkctYDt2R44EWYaBi9PKSYLdKdI_-No=",
+      titulo: "FLORIDA",
+      descripcion: "Miami"
     }
-    // {
-    //   imagen: playa3,
-    //   titulo: " PUNTA CANA",
-    //   descripcion: "Bahybe"
-    // },
   
   ]
   export default playas
