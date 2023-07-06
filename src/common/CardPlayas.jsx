@@ -42,7 +42,7 @@ export const CardPlayas = ({ valor }) => {
 
 
     <>
-    <h1 className="flex justify-center">Vacaciones en vos quieras</h1>
+    <h1 className="flex justify-center">Vacaciones en donde vos quieras</h1>
     
      <div className=" flex flex-wrap justify-center m-2 gap-5 text-right">
       
