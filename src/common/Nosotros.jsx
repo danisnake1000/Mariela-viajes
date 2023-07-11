@@ -1,25 +1,36 @@
-
 import React from "react";
-import { Link } from "react-router-dom";
+
 import { Nabvar } from "./Nabvar";
-import { Document, Page } from "@react-pdf/renderer";
+
+
+import pdfFile from "../image/nota.pdf"; // Ruta al archivo PDF
 
 export const Nosotros = () => {
+  const handleDownload = () => {
+    
+    link = pdfFile;
+   
+ 
+  };
+
   return (
     <div>
-    <Nabvar/>
+      <Nabvar />
       <p>
-        Mariela Rivero viajes y turismo 
+        Mariela Rivero viajes y turismo
         <br />
         Cuit 30717791068
       </p>
       <br />
-      <p> numero de permiso precario PV-2023-00475655</p>
-     
+      <p>numero de permiso precario PV-2023-00475655</p>
       <br />
-     
-    </div>
-  );
+      <a href={pdfFile} download="nombre-archivo.pdf">
+        Descargar PDF
+      </a>
+      <br />
+      <br />
+    </div>
+  );
 };
 
 

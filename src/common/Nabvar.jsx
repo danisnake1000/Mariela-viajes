@@ -13,12 +13,7 @@ export const Nabvar = () => {
    
 
     </div>
-    {/* <ul className='flex gap-6 justify-center'>
-        <li className='text-5 hover:bg-gray-200 rounded-full p-2 w-26 drop-shadow-md '>Inicio</li>
-        <li className='text-5 hover:bg-gray-200 rounded-full p-2 w-26 drop-shadow-md '>Contactos</li>
-        <li className='text-5 hover:bg-gray-200 rounded-full p-2 w-26 drop-shadow-md'>Nosotros</li>
-        
-    </ul> */}
+    
     </div>
     </>
     

@@ -3,7 +3,7 @@ import { useParams } from 'react-router'
 
 export const DetallesCars = () => {
 
-  const {id} = useParams()
+
     
 
   return (

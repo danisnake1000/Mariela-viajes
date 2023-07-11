@@ -13,7 +13,7 @@ export const Home = () => {
     
     <>
     <Nabvar/>
-    <CardPlayas valor={200}/>
+    <CardPlayas />
     <Lugares />
     <Footer/>
     </>
