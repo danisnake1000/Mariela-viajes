@@ -6,74 +6,48 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 import playas from "../../fakeApi";
+import { Link } from "react-router-dom";
 
-// const playas = [
-
-//   {
-//     imagen: playa,
-//     titulo: "PLAYA DEL CARMEN",
-//     descripcion: "Playa car"
-//   },
-//   {
-//     imagen: playa2,
-//     titulo: " MEXICO",
-//     descripcion: "Can Cun"
-//   },
-//   {
-//     imagen: playa3,
-//     titulo: " PUNTA CANA",
-//     descripcion: "Bahybe"
-//   },,
-//   {
-//     imagen: playa3,
-//     titulo: " PUNTA CANA",
-//     descripcion: "Bahybe"
-//   },,
-//   {
-//     imagen: playa3,
-//     titulo: " PUNTA CANA",
-//     descripcion: "Bahybe"
-//   },
-
-// ]
-
-export const CardPlayas = ({ valor }) => {
+export const CardPlayas = () => {
   return (
-
-
     <>
-    <h1 className="flex justify-center text-3xl p-12">Vacaciones en donde vos quieras</h1>
-    
-     <div className=" flex flex-wrap justify-center m-2 gap-5 text-right container mx-auto">
-      
+      <h1 className="flex justify-center text-3xl p-10">
+        Vacaciones en donde vos quieras
+      </h1>
 
-      {playas.map((playa, index) => {
-        return (
-          <Card key={index} sx={{ maxWidth: 300 }}>
-            <CardActionArea>
-              <CardMedia
-                component="img"
-                height="140"
-                image={playa.imagen}
-                alt="PLAYA"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  {playa.titulo}
-                </Typography>
-                <Typography gutterBottom variant="h5" component="div">
-                  {valor}
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  {playa.descripcion}
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-          </Card>
-        );
-      })}
-    </div>
+      <div className=" flex flex-wrap justify-center m-2 gap-5 text-right  ">
+        {playas.map((playa) => {
+          return (
+            <div key={playa.id}>
+              <Link to={`/detalles/${playa.id}`}>
+                <Card sx={{ maxWidth: 400,height:400}}>
+                  <CardActionArea>
+                    <CardMedia
+                      component="img"
+                      height="190"
+                      image={playa.imagen}
+                      alt="PLAYA"
+                    />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="div">
+                        {playa.titulo}
+                      </Typography>
+                      <Typography
+                        gutterBottom
+                        variant="h5"
+                        component="div"
+                      ></Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        {playa.descripcion}
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                </Card>
+              </Link>
+            </div>
+          );
+        })}
+      </div>
     </>
-   
   );
 };

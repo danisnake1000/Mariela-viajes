@@ -31,7 +31,7 @@ export const Lugares = () => {
           autoplay={true}
           spaceBetween={30}
           slidesPerView={1}
-          onSwiper={(swiper) => console.log(swiper)}
+         
           
         >
           {lugares.map((playa, index) => (
