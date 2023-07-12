@@ -1,21 +1,30 @@
-import { Link } from 'react-router-dom'
-import logo from '../image/logo.jpg'
-
+import { Link } from "react-router-dom";
+import logo from "../image/logo.jpg";
 
 export const Nabvar = () => {
   return (
     <>
-   
-    <div className='flex flex-wrap justify-around items-center  py-12 relative'>
-    <Link to="*"><img  className=' h-20 w-50' src={logo} alt="playa" /></Link>
-    <div>
-      <Link to="/nosotros"><h2>Nosotros</h2></Link>
-   
+      <div className="flex flex-wrap justify-around items-center ">
+        <Link to="*">
+          <img className=" h-30 w-80" src={logo} alt="playa" />
+        </Link>
 
-    </div>
-    
-    </div>
+        <div className="flex gap-3 justify-aroundpx-6">
+          <Link to="/nosotros">
+            <h2>Nosotros</h2>
+          </Link>
+          <Link to="/contactos">
+            <h2>Contactos</h2>
+          </Link>
+        </div>
+      </div>
+      <div className="px-20 py-3 ">
+        <p className="text-xs"> Mariela Rivero viajes y turismo</p>
+        <p className="text-xs">Cuit 30717791068</p>
+        <p className="text-xs">
+          numero de permiso precario PV-2023-00475655-APN-DRAV#MTYD
+        </p>
+      </div>
     </>
-    
-  )
-}
+  );
+};

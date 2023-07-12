@@ -22,7 +22,7 @@ export const Nosotros = () => {
         Cuit 30717791068
       </p>
       <br />
-      <p>numero de permiso precario PV-2023-00475655</p>
+      <p>numero de permiso precario PV-2023-00475655-APN-DRAV#MTYD</p>
       <br />
       <a href={pdfFile} download="nombre-archivo.pdf">
         Descargar PDF
