@@ -3,7 +3,7 @@ import React from "react";
 import { RiInstagramFill, RiWhatsappLine, RiMailLine } from "react-icons/ri";
 export const Footer = () => {
   return (
-    <footer className=" text-center flex flex-wrap bg-slate-500 mt-9">
+    <footer className=" text-center flex flex-wrap bg-slate-100 mt-9">
       <div className=" flex flex-col flex-wrap relative  w-full ">
         {/* <img
           src="/src/image/playa2.jpg"
@@ -15,16 +15,16 @@ export const Footer = () => {
           </div>
 
           <div className="flex p-2  ">
-            <a className="flex" target="_blank" href="https://wa.me/542614604776"><RiWhatsappLine className="text-2xl" /> <h4 className="px-4">Whatsapp </h4></a>
+            <a className="flex" target="_blank" href="https://wa.me/542614604776"><RiWhatsappLine className="text-2xl" /> <h4 className="px-4">Whatsapp +5492614604776</h4></a>
             
            
           </div>
           <div className="flex p-2  ">
             <RiInstagramFill className="text-2xl " />
-            <h4 className="px-4">Mariela Rivero Viajes </h4>
+            <h4 className="px-4">Mariela Rivero Viajes</h4>
           </div>
           <div className="flex p-2  ">
-            <a className="flex"   target="_blank" href="mailto:marielarivero145@gmail.com"><RiMailLine className="text-2xl " /><h1 className="px-4">Correo electronico</h1></a>
+            <a className="flex"   target="_blank" href="mailto:marielarivero145@gmail.com"><RiMailLine className="text-2xl " /><h1 className="px-4">     marielarivero145@gmail.com</h1></a>
           
            
           </div>

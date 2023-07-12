@@ -11,10 +11,10 @@ export const Nabvar = () => {
 
         <div className="flex gap-3 justify-aroundpx-6">
           <Link to="/nosotros">
-            <h2>Nosotros</h2>
+            <h2 className="text-2xl">Nosotros</h2>
           </Link>
           <Link to="/contactos">
-            <h2>Contactos</h2>
+            <h2 className="text-2xl">Contactos</h2>
           </Link>
         </div>
       </div>
@@ -22,7 +22,7 @@ export const Nabvar = () => {
         <p className="text-xs"> Mariela Rivero viajes y turismo</p>
         <p className="text-xs">Cuit 30717791068</p>
         <p className="text-xs">
-          numero de permiso precario PV-2023-00475655-APN-DRAV#MTYD
+          Numero de permiso precario PV-2023-00475655-APN-DRAV#MTYD
         </p>
       </div>
     </>

@@ -4,6 +4,7 @@ import { Nabvar } from "./Nabvar";
 
 
 import pdfFile from "../image/nota.pdf"; // Ruta al archivo PDF
+import { Typography } from "@material-tailwind/react";
 
 export const Nosotros = () => {
   const handleDownload = () => {
@@ -16,7 +17,11 @@ export const Nosotros = () => {
   return (
     <div>
       <Nabvar />
-      <p>
+      <p>inspiracion</p>
+    
+     
+   
+      {/* <p>
         Mariela Rivero viajes y turismo
         <br />
         Cuit 30717791068
@@ -28,7 +33,7 @@ export const Nosotros = () => {
         Descargar PDF
       </a>
       <br />
-      <br />
+      <br /> */}
     </div>
   );
 };

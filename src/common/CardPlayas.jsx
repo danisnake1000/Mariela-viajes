@@ -19,7 +19,7 @@ export const CardPlayas = () => {
         {playas.map((playa) => {
           return (
             <div key={playa.id}>
-              <Link to={`/detalles/${playa.id}`}>
+              {/* <Link to={`/detalles/${playa.id}`}> */}
                 <Card sx={{ maxWidth: 400,height:400}}>
                   <CardActionArea>
                     <CardMedia
@@ -43,7 +43,7 @@ export const CardPlayas = () => {
                     </CardContent>
                   </CardActionArea>
                 </Card>
-              </Link>
+              {/* </Link> */}
             </div>
           );
         })}
