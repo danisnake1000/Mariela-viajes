@@ -29,9 +29,7 @@ export const Footer = () => {
            
           </div>
 
-          <div className="flex p-2  ">
-          <a href="https://www.argentina.gob.ar/economia/comercio/defensadelconsumidor" target="_blank">Defensa consumidor</a>
-          </div>
+         
         </div>
       </div>
     </footer>

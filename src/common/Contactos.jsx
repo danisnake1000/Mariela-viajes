@@ -40,12 +40,7 @@ export const Contactos = () => {
           </div>
 
           <div className="flex p-2  ">
-            <a
-              href="https://www.argentina.gob.ar/economia/comercio/defensadelconsumidor"
-              target="_blank"
-            >
-              <h1 className="px-4">Defensa consumidor</h1>
-            </a>
+           
           </div>
         </div>
       </div>

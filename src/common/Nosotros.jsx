@@ -3,8 +3,7 @@ import React from "react";
 import { Nabvar } from "./Nabvar";
 
 
-import pdfFile from "../image/nota.pdf"; // Ruta al archivo PDF
-import { Typography } from "@material-tailwind/react";
+ // Ruta al archivo PDF
 
 export const Nosotros = () => {
   const handleDownload = () => {
