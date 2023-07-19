@@ -1,40 +1,35 @@
-import React from "react";
-
 import { Nabvar } from "./Nabvar";
 
-
- // Ruta al archivo PDF
-
 export const Nosotros = () => {
-  const handleDownload = () => {
-    
-    link = pdfFile;
-   
- 
-  };
-
   return (
-    <div>
+    <div >
       <Nabvar />
-      <p>inspiracion</p>
-    
-     
-   
-      {/* <p>
-        Mariela Rivero viajes y turismo
+      
+
+        <div className=" m-6">
+ 
+       <h1 className=" flex justify-center text-2xl">SIEMPRE ADELANTE CON LA MEJOR EXPERIENCIA</h1>
+      </div>
+
+      <p  className=" m-6 p-2 ">
+        MARIELA RIVERO VIAJES Y TURISMO ES UNA ORGANIZACIÓN ABOCADA A LA
+        COMERCIALIZACIÓN DE SERVICIOS TURÍSTICOS.
         <br />
-        Cuit 30717791068
+        <br />
+        <br className="m-10" />
+        LLEVAMOS MAS DE 20 ANOS ORGANIZANDO VIAJES, EL OBJETIVO ES, ADEMÁS DE
+        VIAJAR Y ARMAR JUNTOS LA VISITA A UN DESTINO, VIVIR MOMENTOS ÚNICOS, LA
+        PERMANENTE EXPERIENCIA Y GESTIÓN NOS PERMITE BRINDAR UNA AMPLIA GAMA DE
+        SERVICIOS Y CUMPLIR LAS EXPECTATIVAS DE TODO TIPO DE PERSONAS.
+        <br />
+        <br />
+        <br />
+        CONTAMOS CON EL CONOCIMIENTO, LA INFORMACIÓN Y LOS MEDIOS PARA SEGUIR
+        AMPLIÁNDONOS Y DISPONEMOS DE UN PRESTIGIO, SERIEDAD Y SOLIDEZ DE
+        AFRONTAR LOS DESAFÍOS CON ÉXITO.
       </p>
-      <br />
-      <p>numero de permiso precario PV-2023-00475655-APN-DRAV#MTYD</p>
-      <br />
-      <a href={pdfFile} download="nombre-archivo.pdf">
-        Descargar PDF
-      </a>
-      <br />
-      <br /> */}
-    </div>
-  );
+      </div>
+      
+   
+  );
 };
-
-

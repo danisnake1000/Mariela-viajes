@@ -26,9 +26,9 @@ export const Contactos = () => {
               <h4 className="px-4">Whatsapp +5492614604776</h4>
             </a>
           </div>
-          <div className="flex p-2  ">
+          {/* <div className="flex p-2  ">
             <h4 className="px-4">Mariela Rivero Viajes</h4>
-          </div>
+          </div> */}
           <div className="flex p-2  ">
             <a
               className="flex"
