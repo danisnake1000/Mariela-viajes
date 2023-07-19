@@ -8,7 +8,7 @@ export const Nosotros = () => {
 
         <div className=" m-6">
  
-       <h1 className=" flex justify-center text-2xl">SIEMPRE ADELANTE CON LA MEJOR EXPERIENCIA</h1>
+       <h1 className=" flex justify-center text-3xl">SIEMPRE ADELANTE CON LA MEJOR EXPERIENCIA</h1>
       </div>
 
       <p  className=" m-6 p-2 ">

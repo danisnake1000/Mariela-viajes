@@ -15,12 +15,12 @@ export const Nabvar = () => {
           </div>
          
 
-          <div className="   mt-3 gap-3 px-6 sm:flex  md:flex  lg:flex">
+          <div className=" text-2xl  mt-3 gap-3 px-6 sm:flex sm:text-base md:flex  lg:flex">
             <Link to="/nosotros">
               <h2 className="hover:text-gray-400 hover:underline duration-500 px-4">Nosotros</h2>
             </Link>
             <Link to="/contactos">
-              <h2 className="hover:text-gray-400 duration-500 px-4">Contactos</h2>
+              <h2 className="hover:text-gray-400 duration-500 px-4 hover:underline ">Contactos</h2>
             </Link>
 
             <a
@@ -28,13 +28,13 @@ export const Nabvar = () => {
               href="https://www.argentina.gob.ar/servicio/presentar-una-denuncia-contra-una-agencia-de-viajes"
               target="_blank"
             >
-              <h1 className="px-4 hover:text-gray-400 duration-500 ">Denuncias</h1>
+              <h1 className="px-4 hover:text-gray-400 duration-500 hover:underline">Denuncias</h1>
             </a>
             <a className="" href={habilitante} target="_blank">
-              <h1 className="px-4  hover:text-gray-400 duration-500">Disposicion habilitante</h1>
+              <h1 className="px-4  hover:text-gray-400 duration-500 hover:underline ">Disposicion habilitante</h1>
             </a>
             <a className="" href={nic} target="_blank">
-              <h1 className="px-4  hover:text-gray-400 duration-500">Oficina virtual</h1>
+              <h1 className="px-4  hover:text-gray-400 hover:underline duration-500">Oficina virtual</h1>
             </a>
           </div>
         </div>
