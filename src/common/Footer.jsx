@@ -3,7 +3,7 @@ import React from "react";
 import { RiInstagramFill, RiWhatsappLine, RiMailLine } from "react-icons/ri";
 export const Footer = () => {
   return (
-    <footer className=" text-center flex flex-wrap bg-slate-100 mt-9">
+    <footer className=" text-center flex flex-wrap mt-9">
       <div className=" flex flex-col flex-wrap relative  w-full ">
        
         <div className="px-8 py-10">

@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 
 export const Lugares = () => {
   return (
-    <div>
+    <div  >
       <div className="justify-center">
         <h2 className="text-3xl p-12 text-center">Lugares del mundo</h2>
         <Swiper

@@ -6,14 +6,11 @@ export const Contactos = () => {
     <div>
       <Nabvar />
 
-      <div className=" flex items-center flex-col flex-wrap  ">
-        {/* <img
-          src="/src/image/playa2.jpg"
-          className="w-full h-full object-cover absolute mix-blend-overlay object-fill"
-        /> */}
+      <div className=" flex items-center flex-col flex-wrap">
+       
         <div className="px-8 py-10">
           <div className="">
-            <h1 className=" flex p-4 text-5xl py-12">CONTACTOS</h1>
+            <h1 className=" flex p-4 text-5xl py-12 ">CONTACTOS</h1>
           </div>
 
           <div className="flex p-2  ">

@@ -2,7 +2,7 @@ import { Nabvar } from "./Nabvar";
 
 export const Nosotros = () => {
   return (
-    <div>
+    <div className="">
       <Nabvar />
 
       <div className=" m-6">
