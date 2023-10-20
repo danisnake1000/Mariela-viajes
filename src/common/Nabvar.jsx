@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import logo from "../image/logo.jpg";
 import nic from "../image/IF-2023-17548341-AP.pdf";
-import habilitante from "../image/disposicion.pdf";
+import habilitante from "../image/IF-2023-17548341-AP.pdf";
 
 export const Nabvar = () => {
   return (
